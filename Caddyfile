@@ -1,0 +1,5 @@
+admin.printteq.co.za {
+  reverse_proxy admin-dashboard:8055  {
+    header_down Strict-Transport-Security max-age=31536000;
+   }
+}
